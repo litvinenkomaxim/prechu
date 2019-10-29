@@ -1,0 +1,30 @@
+.hero-button {
+  height: 53px;
+  width: 235px;
+  background-color: #5094f2;
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-size: 31px;
+  font-weight: 300;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 13px;
+}
+
+
+@media(min-width:960px) {
+  .hero-button {
+    height: 41px;
+    width: 172px;
+
+    font-size: 22px;
+    font-weight: 300;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+  }
+}

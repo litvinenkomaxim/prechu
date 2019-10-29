@@ -1,0 +1,40 @@
+.nav-burger {
+  height: 44px;
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .nav-burger {
+    display: inline-block;
+  }
+}
+
+.nav-burger img {
+  height: 100%;
+  width: auto;
+
+}
+
+.nav-big {
+  display: flex;
+  position: relative;
+  bottom: 0;
+}
+
+@media (max-width: 960px) {
+  .nav-big {
+    display: none;
+  }
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.a-nav {
+  color: #6c6c6c;
+  font-family: "Segoe WPN";
+  font-size: 20px;
+  font-weight: 400;
+
+}

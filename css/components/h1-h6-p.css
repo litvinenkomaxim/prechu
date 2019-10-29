@@ -1,0 +1,116 @@
+.hero-title {
+  color: #ffffff;
+  font-family: "Segoe WP";
+
+  font-weight: 300;
+  font-size: 31px;
+  padding-bottom: 12px;
+}
+
+.hero-subtitle {
+  color: #ffffff;
+  font-family: "Segoe WP";
+  line-height: 32px;
+  font-weight: 300;
+  font-size: 23px;
+  width: 240px;
+  padding-bottom: 33px;
+}
+
+.card-title {
+  color: #5094f2;
+  font-family: "Segoe WPN";
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+
+.card-desription {
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 19px;
+}
+
+
+.shopping-card-title {
+
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 42px;
+  font-weight: 400;
+  padding-bottom: 51px;
+  padding-top: 44px;
+}
+
+.shopping-card-h3 {
+  padding-top: 21px;
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 34px;
+
+}
+
+.shopping-card-p {
+  padding-top: 23px;
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+
+
+@media (min-width:960px) {
+  .card-desription {
+    text-align: center;
+    color: #909090;
+    font-family: "Segoe WPN";
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+  .card-title {
+    text-align: center;
+    color: #5094f2;
+    font-family: "Segoe WPN";
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+
+  .hero-title {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    font-size: 42px;
+  }
+
+  .hero-subtitle {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .shopping-card-title {}
+
+  .shopping-card-h3 {
+    font-size: 26px;
+  }
+
+  .shopping-card-p {
+    font-size: 15px;
+  }
+}
+
+
+
+.footer-text {
+  text-align: center;
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 15px;
+  font-weight: 300;
+
+}
