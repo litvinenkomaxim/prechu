@@ -89,7 +89,7 @@ header .grid {
 
 @media (max-width:960px) {
   .shopping .grid-item {
-    width: 512px;
+    max-width: 512px;
     /* display: flex;
   flex-direction: column;
   justify-content: center; */
