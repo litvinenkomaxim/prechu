@@ -1,16 +1,18 @@
 .hero-picture {
   height: 436px;
+  max-width: 345px;
 }
 
 @media (max-width:960px) {
   .hero-picture {
     height: 223px;
+    max-width: 177px
   }
 }
 
 .hero-picture>img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .hero {

@@ -56,11 +56,12 @@ header .grid {
 
 .shopping-card-figure {
   height: 162px;
+  max-width: 215px;
 }
 
 .shopping-card-figure img {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 
@@ -81,6 +82,7 @@ header .grid {
 
   .shopping-card-figure {
     height: 279px;
+    max-width: 371px;
   }
 
 }
