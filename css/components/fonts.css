@@ -1,23 +1,35 @@
 @font-face {
   font-family: "Segoe WP";
-  src: url("../../fonts/SegoeWP.eot"); /* IE9 Compat Modes */
+  src: url("../../fonts/SegoeWP.eot");
+  /* IE9 Compat Modes */
   src: url("../../fonts/SegoeWP.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../../fonts/SegoeWP.woff2") format("woff2"),
-    /* Modern Browsers */ url("../../fonts/SegoeWP.woff") format("woff"),
-    /* Modern Browsers */ url("../../fonts/SegoeWP.ttf") format("truetype"),
-    /* Safari, Android, iOS */ url("../../fonts/SegoeWP.svg") format("svg"); /* Legacy iOS */
+    /* IE6-IE8 */
+    url("../../fonts/SegoeWP.woff2") format("woff2"),
+    /* Modern Browsers */
+    url("../../fonts/SegoeWP.woff") format("woff"),
+    /* Modern Browsers */
+    url("../../fonts/SegoeWP.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../../fonts/SegoeWP.svg") format("svg");
+  /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Segoe WPN";
-  src: url("../../fonts/SegoeWPN.eot"); /* IE9 Compat Modes */
+  src: url("../../fonts/SegoeWPN.eot");
+  /* IE9 Compat Modes */
   src: url("../../fonts/SegoeWPN.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../../fonts/SegoeWPN.woff2") format("woff2"),
-    /* Modern Browsers */ url("../../fonts/SegoeWPN.woff") format("woff"),
-    /* Modern Browsers */ url("../../fonts/SegoeWPN.ttf") format("truetype"),
-    /* Safari, Android, iOS */ url("../../fonts/SegoeWPN.svg") format("svg"); /* Legacy iOS */
+    /* IE6-IE8 */
+    url("../../fonts/SegoeWPN.woff2") format("woff2"),
+    /* Modern Browsers */
+    url("../../fonts/SegoeWPN.woff") format("woff"),
+    /* Modern Browsers */
+    url("../../fonts/SegoeWPN.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../../fonts/SegoeWPN.svg") format("svg");
+  /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
 }
@@ -53,18 +65,22 @@
 .icon-check {
   margin-right: 6px;
 }
+
 .icon-check:before {
   content: "\e900";
   color: #fff;
 }
+
 .icon-monitor:before {
   content: "\e901";
   color: #fff;
 }
+
 .icon-pencil:before {
   content: "\e902";
   color: #fff;
 }
+
 .icon-shopping-cart:before {
   content: "\e903";
   color: #fff;

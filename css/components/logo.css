@@ -1,12 +1,20 @@
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 4px;
 }
 
 .logo-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   /* align-items: stretch; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 52px;
   height: 52px;
