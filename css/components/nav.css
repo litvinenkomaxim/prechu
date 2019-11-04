@@ -31,12 +31,29 @@
 
 .nav-item {
   padding-left: 20px;
+  box-sizing: inline-block;
 }
+
+
 
 .a-nav {
   color: #6c6c6c;
   font-family: "Segoe WPN";
   font-size: 20px;
   font-weight: 400;
+
+}
+
+.a-nav:hover {
+  padding-bottom: 26.5px;
+  border-bottom: solid #00e0d0 3px;
+  text-decoration: none;
+}
+
+
+.a-nav:active,
+.is-active {
+  padding-bottom: 26.5px;
+  border-bottom: solid red 3px;
 
 }

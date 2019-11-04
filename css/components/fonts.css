@@ -68,8 +68,10 @@
 
 .icon-check:before {
   content: "\e900";
-  color: #fff;
+  /* color: #fff; */
 }
+
+
 
 .icon-monitor:before {
   content: "\e901";

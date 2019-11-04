@@ -11,6 +11,10 @@ header .grid {
   align-items: center;
 }
 
+.header .grid-item {
+  height: 100%;
+}
+
 .hero .grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,6 +31,13 @@ header .grid {
 
 }
 
+@media (max-width: 480px) {
+  .hero .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .hero .grid-item {
   padding: 0 10px;
 }
@@ -34,8 +45,6 @@ header .grid {
 .hero .grid-item.width-3-5 {
   padding: 10px 17px 0;
 }
-
-
 
 .card .grid {
   display: -webkit-box;
@@ -84,8 +93,19 @@ header .grid {
   }
 }
 
-.card .grid-item {
-  padding: 10px;
+
+@media (max-width:480px) {
+  .card .grid {
+    flex-direction: column;
+  }
+}
+
+/* .card .grid-item {
+  padding: 0px;
+} */
+
+.card .grid-item.right {
+  padding-left: 10px;
 }
 
 .shopping-card-figure {
@@ -97,8 +117,6 @@ header .grid {
   height: 100%;
   width: 100%;
 }
-
-
 
 .shopping .grid {
   display: -webkit-box;
@@ -113,7 +131,6 @@ header .grid {
   align-items: center;
   padding-bottom: 35px;
 }
-
 
 @media (min-width:960px) {
   .shopping .grid {

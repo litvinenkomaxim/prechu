@@ -1,12 +1,25 @@
 .hero-picture {
   height: 436px;
   max-width: 345px;
+
 }
 
 @media (max-width:960px) {
   .hero-picture {
     height: 223px;
-    max-width: 177px
+    max-width: 177px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:480px) {
+
+  .hero-button,
+  .hero-subtitle,
+  .hero-title,
+  .hero-button-a {
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -37,7 +50,6 @@
   .hero-decore {
     display: none;
   }
-
 }
 
 @media (min-width:960px) {
@@ -87,6 +99,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
+  z-index: 2;
 }
 
 @media (min-width:1200px) {
@@ -119,6 +132,12 @@
     right: -55px;
     top: 225px;
     z-index: 1000;
+  }
+}
+
+@media (max-width:960px) {
+  .container-little {
+    padding: 0 20px;
   }
 }
 
