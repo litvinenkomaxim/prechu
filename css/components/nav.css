@@ -31,6 +31,7 @@
 
 .nav-item {
   padding-left: 20px;
+  -webkit-box-sizing: inline-block;
   box-sizing: inline-block;
 }
 
