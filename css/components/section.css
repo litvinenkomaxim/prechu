@@ -101,7 +101,7 @@
   z-index: 2;
 }
 
-@media (min-width:1200px) {
+/* @media (min-width:1200px) {
   .hero .grid::before {
     content: "";
     background-image: url("../../pictures/Layer_4.svg");
@@ -110,31 +110,31 @@
     height: 62px;
     background-repeat: no-repeat;
     /* margin-right: 200px; */
-    /* margin: auto 0; */
-    position: absolute;
-    left: -50px;
-    top: 225px;
-    z-index: 1000;
+/* margin: auto 0; */
+position: absolute;
+left: -50px;
+top: 225px;
+z-index: 1000;
 
-  }
-
-  .hero .grid::after {
-    content: "";
-    background-image: url("../../pictures/Layer_4_copy.svg");
-    background-size: 20px 80px;
-    width: 25px;
-    height: 62px;
-    background-repeat: no-repeat;
-    /* margin-right: 200px; */
-    /* margin: auto 0; */
-    position: absolute;
-    right: -55px;
-    top: 225px;
-    z-index: 1000;
-  }
 }
 
-@media (max-width:960px) {
+.hero .grid::after {
+  content: "";
+  background-image: url("../../pictures/Layer_4_copy.svg");
+  background-size: 20px 80px;
+  width: 25px;
+  height: 62px;
+  background-repeat: no-repeat;
+  /* margin-right: 200px; */
+  /* margin: auto 0; */
+  position: absolute;
+  right: -55px;
+  top: 225px;
+  z-index: 1000;
+}
+}
+
+*/ @media (max-width:960px) {
   .container-little {
     padding: 0 20px;
   }
